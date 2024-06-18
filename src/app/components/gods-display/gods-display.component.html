@@ -1,0 +1,11 @@
+<div class="container_gods-list">
+  @for (id of godIds; track godIds){
+    <!-- TODO: Aplicar a lógica do teste nesse projeto. Parcialmente feito. -->
+  <div class="gods-list" >
+    <img
+      src="https://webcdn.hirezstudios.com/smite/god-icons/{{ godsNames[id] }}.jpg"
+      alt="{{ godsNames[id] }}" class="godCard" draggable="true"  id="{{ id }}"
+    />
+  </div>
+  }
+</div>

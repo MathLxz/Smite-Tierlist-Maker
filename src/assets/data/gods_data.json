@@ -1,0 +1,29 @@
+{
+ "gods":[
+  {
+    "id": 0,
+    "nome": "loki",
+    "classe": "assaassino"
+  },
+  {
+    "id": 1,
+    "nome": "chronos",
+    "classe": "mago"
+  },
+  {
+    "id": 2,
+    "nome": "izanami",
+    "classe": "cacador"
+  },
+  {
+    "id": 3,
+    "nome": "athena",
+    "classe": "guardiao"
+  },
+  {
+    "id": 4,
+    "nome": "amaterasu",
+    "classe": "guerreiro"
+  }
+ ]
+}

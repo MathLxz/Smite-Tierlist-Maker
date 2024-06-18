@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+
+  background-color: #4d4848;
+  width: 100%;
+  height: 4.5rem;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 75px;
+  background-color: red;
+}
+/* Tier Colors */
+.ss {
+  background-color: #ed5e81;
+}
+.sPlus {
+  background-color: #f3b97b;
+}
+.s {
+  background-color: #f7e478;
+}
+.aPlus {
+  background-color: #f8ff74;
+}
+.a {
+  background-color: #c0ff74;
+}
+.bPlus {
+  background-color: #84ff78;
+}
+.b {
+  background-color: #83fbf6;
+}
+.c {
+  background-color: #7bb6e8;
+}
+.d {
+  background-color: #725ed7;
+}
