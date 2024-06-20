@@ -16,11 +16,12 @@ export class RowComponent implements AfterViewChecked {
   ngAfterViewChecked(): void {
     const rows = document.querySelectorAll('.row');
 
-    const funOnDragOver = (event: DragEvent) => { // Função de drag
+    const funOnDragOver = (event: DragEvent) => {
+      // Função de drag
       event.preventDefault();
     };
 
-     const funOnDrop = (event: DragEvent) => {
+    const funOnDrop = (event: DragEvent) => {
       event.preventDefault();
       const draggedCardId = event.dataTransfer?.getData('id');
       if (draggedCardId) {
@@ -28,7 +29,6 @@ export class RowComponent implements AfterViewChecked {
         const e = event.target as HTMLElement;
         if (draggedCard) {
           e.appendChild(draggedCard);
-
         }
       }
     };
